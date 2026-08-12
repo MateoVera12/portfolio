@@ -16,11 +16,12 @@ export default function Hero() {
             Carlos Mateo Vera Grimaldo
           </h1>
           <p className="mt-3 font-mono text-base text-accent sm:text-lg">
-            Ingeniero de Sistemas — Full-Stack Development & AI/NLP
+            Ingeniero de Sistemas · Desarrollador Full Stack 
+            <br />
+            Enfoque en backend · Arquitectura de Software 
           </p>
-          <p className="mt-6 max-w-xl text-base leading-relaxed text-muted sm:text-lg">
-            Construyo sistemas backend robustos y aplico NLP a problemas reales.
-            Recién graduado de la UIS, Bucaramanga.
+          <p className="mt-6 max-w-xl text-justify text-base leading-relaxed text-muted sm:text-lg">
+            Desarrollo sistemas robustos y mantenibles, desde el backend y la arquitectura hasta la interfaz. Trabajo con Java, Spring Boot, .NET, Python, TypeScript y SQL, y aplico inteligencia artificial y NLP para resolver problemas reales.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <Button href="#proyectos">Ver proyectos</Button>

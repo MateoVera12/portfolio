@@ -8,19 +8,30 @@ type SectionProps = {
   id: string;
   kicker?: string;
   title?: string;
+  description?: ReactNode;
   children: ReactNode;
   className?: string;
+  tone?: "base" | "alt";
 };
 
 export default function Section({
   id,
   kicker,
   title,
+  description,
   children,
   className,
+  tone = "base",
 }: SectionProps) {
   return (
-    <section id={id} className={cn("scroll-mt-24 py-24 sm:py-32", className)}>
+    <section
+      id={id}
+      className={cn(
+        "scroll-mt-24 py-14 sm:py-20",
+        tone === "alt" ? "bg-surface-alt" : "bg-background",
+        className,
+      )}
+    >
       <Container>
         <FadeIn>
           {kicker ? <SectionKicker>{kicker}</SectionKicker> : null}
@@ -29,8 +40,13 @@ export default function Section({
               {title}
             </h2>
           ) : null}
+          {description ? (
+            <p className="mt-3 max-w-xl text-sm leading-relaxed text-muted sm:text-base">
+              {description}
+            </p>
+          ) : null}
         </FadeIn>
-        <div className="mt-10">{children}</div>
+        <div className="mt-8">{children}</div>
       </Container>
     </section>
   );

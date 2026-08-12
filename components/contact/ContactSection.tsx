@@ -3,9 +3,9 @@ import FadeIn from "@/components/ui/FadeIn";
 import ContactLink from "@/components/contact/ContactLink";
 import { contact } from "@/data/contact";
 
-export default function ContactSection() {
+export default function ContactSection({ tone }: { tone?: "base" | "alt" }) {
   return (
-    <Section id="contacto" kicker="Contacto" title="Hablemos">
+    <Section id="contacto" kicker="Contacto" title="Hablemos" tone={tone}>
       <p className="max-w-xl text-sm leading-relaxed text-muted sm:text-base">
         ¿Un equipo buscando un full-stack con base backend sólida e IA aplicada?
         Escríbeme por cualquiera de estos canales.

@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         background: "#0d1117",
+        "surface-alt": "#0f141c",
         surface: "#111722",
         "surface-raised": "#161d29",
         foreground: "#e6e6e6",

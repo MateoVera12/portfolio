@@ -2,13 +2,12 @@ export type Project = {
   slug: string;
   name: string;
   category: "laboral" | "personal" | "academico";
-  summary: string;
-  decision: string;
-  result: string;
+  description: string;
   tech: string[];
   highlights: string[];
   repoUrl?: string;
   demoUrl?: string;
+  caseStudyUrl?: string;
   image?: {
     src: string;
     alt: string;
