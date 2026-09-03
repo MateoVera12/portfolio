@@ -1,6 +1,5 @@
 # Portafolio — Mateo Vera
 
-Portafolio personal de **Mateo Vera Grimaldo**, Ingeniero de Sistemas de la **Universidad Industrial de Santander (UIS)**.
 
 Soy desarrollador de software con interés en la construcción de aplicaciones **Full-Stack**, desarrollo **Backend**, bases de datos, infraestructura y soluciones basadas en **Inteligencia Artificial y Machine Learning**.
 
@@ -19,6 +18,7 @@ Actualmente enfoco mi perfil en oportunidades como:
 * Software Engineer
 * Systems / Infrastructure
 * AI / ML Developer
+* Cybersecurity
 
 ## Tecnologías
 
@@ -29,6 +29,7 @@ Actualmente enfoco mi perfil en oportunidades como:
 * Python
 * FastAPI
 * Node.js
+* C#
 * .NET
 
 ### Frontend
