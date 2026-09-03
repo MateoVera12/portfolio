@@ -103,13 +103,13 @@ También he trabajado en proyectos orientados a la gestión empresarial, incluye
 
 **Ingeniería de Sistemas**
 Universidad Industrial de Santander — UIS
-Graduado en 2026
+2026
 
 Durante mi formación también participé como **auxiliar docente**, apoyando actividades académicas y prácticas relacionadas con ingeniería, matemáticas, física y computación.
 
 ## Este portafolio
 
-El sitio está construido como una aplicación web moderna de una sola página, buscando presentar mi perfil profesional y mis proyectos de una manera sencilla, rápida y visual.
+El sitio está construido como una aplicación web moderna SPA, buscando presentar mi perfil profesional y mis proyectos de una manera sencilla, rápida y visual.
 
 ## Stack del portafolio
 
@@ -171,8 +171,6 @@ data/              # contenido del portafolio
 types/             # tipos de TypeScript
 ```
 
-El contenido del portafolio se encuentra centralizado en `data/*.ts`, permitiendo actualizar proyectos, tecnologías, experiencia y datos de contacto sin necesidad de utilizar un CMS o una base de datos.
-
 ## Deploy
 
 El proyecto está preparado para desplegarse en **Vercel**.
@@ -181,15 +179,6 @@ El proyecto está preparado para desplegarse en **Vercel**.
 pnpm dlx vercel
 ```
 
-## Próximamente
-
-* Añadir el repositorio público del ERP de Ferreterías.
-* Publicar el repositorio de la tesis de ABSA.
-* Añadir el CV descargable.
-* Incorporar capturas de los principales proyectos.
-* Configurar el dominio personal.
-
----
 
 **Mateo Vera Grimaldo**
 Ingeniero de Sistemas · Full-Stack · Backend · AI/ML
